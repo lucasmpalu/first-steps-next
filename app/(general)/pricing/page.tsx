@@ -1,5 +1,6 @@
 import React from 'react'
 import type { Metadata } from 'next';
+import 'tailwindcss/tailwind.css'; // Importa los estilos de Tailwind CSS
 
 //SI NO PONEMOS LA METADATA, SE PONDRÁ POR DEFECTO LA DEL LAYOUT
 export const metadata: Metadata = {
@@ -11,7 +12,8 @@ export const metadata: Metadata = {
 const PricingPage = () => {
   return (
     <>
-    <span className='text-7xl'>Pricing Page</span>
+      <span className='text-lg'>Hola Mundo</span>
+      <span className='text-7xl'>Pricing Page</span>
     </>
   )
 }

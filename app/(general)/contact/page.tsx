@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 const ContactPage = () => {
   return (
     <>
+        <span className='text-lg'>Hola Mundo</span>
         <span className='text-7xl'>Contact Page</span>
     </>
     )
